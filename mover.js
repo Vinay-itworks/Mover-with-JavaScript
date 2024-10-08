@@ -47,5 +47,7 @@ window.addEventListener('keydown' , function (e) {
             this.alert("Reached the Bottom-End")
           }
           break;
+      default:
+      	  this.alert("Try arrow keys");
   }
 });
